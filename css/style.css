@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+.hero {
+    background: linear-gradient(135deg,#0f172a,#0ea5a4);
+    color: white;
+    padding: 90px 0 70px;
+    margin-top: 56px;
+}
+
+.profile-img{
+width:180px;
+height:180px;
+border-radius:50%;
+margin-bottom:20px;
+border:5px solid white;
+}
+
+.page-banner {
+    background: linear-gradient(135deg,#0f172a,#0ea5a4);
+    color: white;
+    padding: 70px 0 35px;
+    margin-top: 56px;
+}
+.project-card {
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-footer {
+    margin-top: auto;
+}
+
+.project-card img {
+    width: 110%;
+    height: 320px;
+    object-fit: cover;
+    transition: 0.3s ease;
+    
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+.section-title {
+    font-weight: 700;
+}
+
+.stats {
+    background: #0f172a;
+    color: white;
+}
+
+.carousel-item {
+    min-height: 180px;
+}
+
+.badge {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+}
+
+
+
+.section-title{
+margin-bottom:30px;
+font-weight:700;
+color:#0f172a;
+}
+
+.card{
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.skill-card,
+.project-card{
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stats{
+background:#0f172a;
+color:white;
+}
+
+.timeline-item{
+border-left:4px solid #0ea5a4;
+padding-left:20px;
+margin-bottom:20px;
+}
+
+.cta-section{
+background:#0ea5a4;
+padding:70px 0;
+color:white;
+}
+
+.footer {
+    background: #0f172a;
+    color: #ffffff;
+    padding: 50px 0 20px;
+}
+
+footer a {
+    transition: 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff !important;
+}
+
+footer h5 {
+    color: #0ea5a4;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #0ea5a4;
+}
+
+.footer hr {
+    border-color: rgba(255,255,255,0.15);
+}
+.cta-section{
+    background: linear-gradient(135deg,#0f172a,#0ea5a4);
+    color:#fff;
+    padding:80px 20px;
+}
+
+.cta-section h2{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.cta-section .btn{
+    padding:12px 30px;
+    border-radius:30px;
+}
+
+.cta-section .btn:hover{
+    transform:translateY(-3px);
+    transition:0.3s;
+}
+.page-banner h1,
+.page-banner p {
+    color: #ffffff;
+}
